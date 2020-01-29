@@ -56,3 +56,27 @@
     left: 60%;
     top: 50%;
 }
+
+/* texte sous jumbo */
+article h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+article p{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+article hr{
+    width: 5%;
+    margin: auto;
+    border: solid 2px black;
+}
+
+#sous-texte{
+    padding-top: 2%;
+    width: 50%;
+    margin: auto;
+}
