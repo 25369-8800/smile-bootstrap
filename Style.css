@@ -23,7 +23,7 @@
     border-top: 5px solid white;
     border-bottom: 5px solid white;
 }
-
+/* bordure after before du lien menu */
 #lienmenu a{
     color: white;
 }
@@ -77,4 +77,27 @@ article hr{
     width: 5%;
     margin: auto;
     border: solid 2px black;
+}
+/* mise en place de la row audrey */
+
+.section3{
+    background-color: rgb(248, 219, 219);
+}
+
+.col-sm p{
+    margin-left: 15%;
+    margin-top: 30%;
+    font-size: 30px;
+    width: 50%;
+}
+
+/* after colonne p */
+
+.col-sm p::after{
+    content: 'Audrey Hepburn';
+    display: block;
+    font-size: 20px;
+    color: rgb(133, 127, 127);
+    margin-top: 20%;
+    text-transform: uppercase;
 }
