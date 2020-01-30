@@ -10,6 +10,7 @@
 
 #menu nav.scrolled{
     background: rgba(0, 0, 0, 0.295);
+    z-index: 2;
 }
 
 /*mise en place du menu caché */
@@ -35,7 +36,7 @@ a.nav-link{
 
 #menu nav ul li img{
     width: 50%;
-    margin-top:5%;
+    margin-bottom: 8%;
 }
 
 .lienmenu{
