@@ -138,19 +138,19 @@ article hr{
 }
 
 /* titre section 4*/
-#section4 h3{
+.trait{
     font-size: 50px;
     margin-left: 6%;
     margin-top: 5%;
 }
 
-#section4:after{
+.trait:after{
     content: " ";
     display: block;
     height: 5px;
     width: 5%;
     background-color: black;
-    margin-left: 6%;
+    margin-top: 1%;
 }
 
 /* section 5 */
@@ -199,7 +199,7 @@ article hr{
     width: 15%;
     text-transform: uppercase;
     margin-left: 43%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 /* Image de fond section 6 */
@@ -211,6 +211,10 @@ article hr{
     background-position: center;
 }
 
+/*Image de fond */
+.jumbotron.jumbotron-fluid:hover{
+    filter: grayscale(1);
+}
 
 /*mise en place du texte de la section 6 */
 #section6 h4{
@@ -228,3 +232,4 @@ article hr{
     width: 50%;
     margin: auto;
 }
+
