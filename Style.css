@@ -9,7 +9,7 @@
 }
 
 #menu nav.scrolled{
-    background: rgba(0, 0, 0, 0.185);
+    background: rgba(0, 0, 0, 0.295);
 }
 
 /*mise en place du menu caché */
@@ -39,7 +39,7 @@ a.nav-link{
 }
 
 .lienmenu{
-    margin-top: 1.3%;
+    margin-top: 0.5%;
     text-transform: uppercase;
     margin-right: 3%;
 
