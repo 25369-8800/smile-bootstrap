@@ -193,10 +193,38 @@ article hr{
 #section5 .col-sm:hover .texttableau::after{
     color: white;
 }
+
 /*aggrandissement du bouton section5 */
 .btn.btn-outline-dark{
     width: 15%;
     text-transform: uppercase;
     margin-left: 43%;
     margin-top: 2%;
+}
+
+/* Image de fond section 6 */
+.jumbotron.jumbotron-fluid{ 
+    margin-top: 5%;
+    background-image: url(/Assets/Images/background\ citation.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*mise en place du texte de la section 6 */
+#section6 h4{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+#section6 p{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
