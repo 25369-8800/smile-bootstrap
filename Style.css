@@ -22,6 +22,17 @@
     left: 85.2%;
 }
 
+/* menu déroulant media queries */
+@media screen and (max-width: 640px){
+    #navbarcache{
+        background-color: black;
+        width: 32%;
+        text-align: center;
+        position: relative;
+        left: 48%;
+    }
+}
+
 a.nav-link{
     color: white;
 }
@@ -33,7 +44,18 @@ a.nav-link{
     margin: auto;
     padding-top: 1%;
 }
-
+/*media queries nav */
+@media screen and (max-width: 640px){
+    #menu nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 1%;
+    padding-top: 1%;
+   
+    }
+}
 #menu nav ul li img{
     width: 50%;
     margin-bottom: 8%;
@@ -72,7 +94,34 @@ a.nav-link{
     background-size: cover;
     height: 100vh;
 }
+/* media queries jumbotron */
+@media screen and (max-width: 640px){
+    .jumbotron{
+        background-image: url(/Assets/Images/image\ ours.jpg);
+        background-size: cover;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+    h1#titreheader.textjumbo{
+        font-size: 50px;
+        color: white;
+        top: 30%;
+    }
+    p#pheader.textjumbo{
+        font-size: 30px;
+        color: white;
+        width: 60%;
+        top: 30%;
+    }
 
+    .textjumbo{
+        position: relative;
+        right: 30%;
+    }
+
+}
 /*Design du texte jumbotron */
 #titreheader{
     font-size: 150px;
@@ -285,6 +334,15 @@ ul#Buy{
     bottom: 10%;
 }
 
+@media screen and (max-width: 640px){
+    ul#Buy{
+    width: 100%;
+    position: relative;
+    padding-left: 2%;
+    padding-right: 4%;
+    bottom: 10%;
+    } 
+}
 ul#Buy li{
     list-style: none;
 }
@@ -373,7 +431,7 @@ li.navbar-brand{
 /*média queries copyright*/
 @media screen and (max-width: 640px){
     li.navbar-brand{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
