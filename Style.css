@@ -87,7 +87,7 @@ a.nav-link{
 /*position du texte jumbotron */
 .textjumbo{
     position: relative;
-    left: 60%;
+    margin-left: 60%;
     top: 50%;
 }
 
@@ -321,11 +321,11 @@ footer{
 }
 
 /* hover du footer */
-footer:hover{
-    background-color: black;
-    color: white;
+footer:hover h4{
+    text-decoration-line: underline;   
 }
 
-.row.footer1:hover ul li a{
-    color: white;
+li.navbar-brand{
+    font-size: 15px;
+    margin-right: 55%;
 }
