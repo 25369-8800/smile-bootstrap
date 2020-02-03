@@ -379,7 +379,7 @@ ul#Buy li a:hover{
     color: black;
 }
 
-p#coordonnees{
+.coordonnees{
     color: black;
 }
 
@@ -390,6 +390,20 @@ p#coordonnees{
 
 #exampleInputEmail1.gray::placeholder{
     color: rgb(182, 182, 182) ;
+}
+
+/*Titre du footer */
+@media screen and (max-width: 640px){
+    h5.stfooter{
+        margin-right: 8.8%;
+    }
+}
+
+h5.stfooter{
+    margin-left: 9%;
+}
+h5{
+    font-size: 30px;
 }
 /* marge du footer */
 footer{
@@ -423,7 +437,7 @@ footer:hover h4{
     background-color: rgb(236, 235, 235);
 }
 
-li.navbar-brand{
+p.navbar-brand{
     font-size: 15px;
     margin-right: 55%;
 }
