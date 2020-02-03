@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Style.css">
+    <!--Mise en place de Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Font awesome-->
@@ -18,7 +19,7 @@
         <!--Réalisation  de l'en-tête du site-->
         <nav>
             <ul>
-                <li><a href="#"></a><img src="./Assets/Images/logo.jpg" alt=""></li>
+                <li><a href="#"></a><img src="./Assets/Images/logo.jpg" alt="Logo quotes"></li>
                 <li class="lienmenu" data-toggle="collapse" data-target="#navbarcache" aria-controls="navbarcache"><a
                         href="#"><strong>menu</strong></a></li>
             </ul>
@@ -35,6 +36,7 @@
                     </li>
                 </ul>
         </nav>
+        <!--Jumbotron du header-->
         <div class="container-fluid">
             <div class="jumbotron">
                 <h1 class="textjumbo" id="titreheader" class="display-4">Smile</h1>
@@ -119,25 +121,31 @@
         <!--Création de la grille avec bootstrap-->
         <div class="perso">
         <div class="row">
+            <!--Colonne de gauche-->
             <div class="col-sm">
-                <img class="perso2" src="/Assets/Images/Buy left.jpg" alt="">
+                <img class="perso2" src="/Assets/Images/Buy left.jpg" alt="Homme en costume">
                 <ul id="Buy">
             <li><a href="#">Buy Now</a></li>
             <li><a href="#">Share <i class="fas fa-hand-pointer"></i></a></li>
         </ul>
             </div>
+             <!--Colonne de droite-->
             <div class="col-sm colperso">
                 <div class="row">
                     <div class="col-sm">
-                        <img class="perso2" src="/Assets/Images/buy right haut.jpg" alt="">
+                         <!--1ère rangée de la colonen de droite-->
+                        <img class="perso2" src="/Assets/Images/buy right haut.jpg" alt="Homme qui médite sur un rocher avec une citation">
                     </div>
                 </div>
+                 <!--2ème rangée de la colonen de droite-->
                 <div class="row">
                     <div class="col-sm ajust">
-                        <img class="perso2" src="./Assets/Images/right left.jpg" alt="">
+                        <!--Image de gauche-->-->
+                        <img class="perso2" src="./Assets/Images/right left.jpg" alt="tasse de café">
                     </div>
                     <div class="col-sm ajust">
-                        <img class="perso2" src="/Assets/Images/right right.jpg" alt="">
+                        <!--Image de droite-->
+                        <img class="perso2" src="/Assets/Images/right right.jpg" alt="Homme qui symbolise le silence">
                     </div>
                 </div>
             </div>
@@ -152,6 +160,7 @@
     <!--Mise en place du footer-->
     <footer>
         <div class="row footer1">
+            <!--Première colonne du footer-->
             <div class="col-sm-3">
                 <ul>
                     <h4>BROWSE</h4>
@@ -162,6 +171,7 @@
                     <li><a href="#">Services</a></li>
                 </ul>
             </div>
+             <!--Deuxième colonne du footer-->
             <div class="col-sm-3">
                 <ul>
                     <h4>SHOP</h4>
@@ -171,6 +181,7 @@
                     <li><a href="#">FAQS</a></li>
                 </ul>
             </div>
+             <!--Troisième colonne du footer-->
             <div class="col-sm-3">
                 <h4>CONTACT</h4>
                 <p id="coordonnees">Quotes PSD Template<br>
@@ -182,6 +193,7 @@
                     Fax: + 01 234 567 890
                     graphicsfuel@gmail.com</p>
             </div>
+             <!--Dernière colonne du footer-->
             <div class="col-sm-3">
                 <h4>SUBSCRIBE NOW</h4>
                 <p id="coordonnees">Get our latest news and <br> product updates daily</p>
@@ -194,8 +206,8 @@
                     </div>
                 </form>
             </div>
-
         </div>
+        <!--Deuxième rangée du footer-->
         <div class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-light">
@@ -213,6 +225,7 @@
         </div>
         </div>
     </footer>
+    <!--Script javascript pour le décrochement de la barre du menu-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
