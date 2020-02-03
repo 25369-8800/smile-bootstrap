@@ -303,8 +303,13 @@ p#coordonnees{
     color: rgb(187, 187, 187);
 }
 
+/* Desgin du input de la dernière colonne du footer */
 #exampleInputEmail1.gray{
-    background: rgb(224, 223, 223) ;
+    background: rgb(236, 235, 235) ;
+}
+
+#exampleInputEmail1.gray::placeholder{
+    color: rgb(182, 182, 182) ;
 }
 /* marge du footer */
 footer{
@@ -313,4 +318,14 @@ footer{
 
 .footer1{
     margin-bottom: 5%;
+}
+
+/* hover du footer */
+footer:hover{
+    background-color: black;
+    color: white;
+}
+
+.row.footer1:hover ul li a{
+    color: white;
 }
