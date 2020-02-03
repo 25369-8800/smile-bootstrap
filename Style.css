@@ -1,3 +1,17 @@
+@keyframes bounce{
+    from{top:106px;}
+    10%{top:99px;}
+    20%{top:93px;}
+    30%{top:89px;}
+    40%{top:87px;}
+    50%{top:86px;}
+    60%{top:87px;}
+    70%{top:89px;}
+    80%{top:93px;}
+    90%{top:99px;}
+    to{top:106px;}
+    }
+
 /*barre de menu */
 #menu nav{
     width: 100%;
@@ -300,7 +314,7 @@ ul#Buy li a:hover{
 }
 
 p#coordonnees{
-    color: rgb(187, 187, 187);
+    color: black;
 }
 
 /* Desgin du input de la dernière colonne du footer */
@@ -325,7 +339,15 @@ footer:hover h4{
     text-decoration-line: underline;   
 }
 
+/*couleur de fond du deuxième footer */
+.navbar.navbar-light{
+    background-color: rgb(236, 235, 235);
+}
 li.navbar-brand{
     font-size: 15px;
     margin-right: 55%;
+}
+
+.navbar.navbar-light .navbar-brand{
+    color: rgb(182, 182, 182);
 }
